@@ -1,5 +1,6 @@
 const { default: axios } = require("axios");
 const BN = require("bn.js");
+const { NORMALIZE } = require("./constants");
 const { getHighestVolume, getTokenVolume } = require("./uniswapGraph");
 const { validateBalance } = require("./validateBalance");
 
@@ -56,9 +57,9 @@ const entryPoint = async (config) => {
       `portfolio-delta: token score for ${token.tokenInfo.name} `,
       tokenScore
     );
-    delta += tokenScore;
+    delta += parseFloat(tokenScore);
   }
-  delta *= 100;
+  delta *= NORMALIZE;
   console.log(`portfolio-delta:`, delta);
   return delta;
 };
