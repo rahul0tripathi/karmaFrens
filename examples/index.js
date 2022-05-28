@@ -25,6 +25,7 @@ const runners = [
     op: 0,
     config: {
       wallet: "0x72238a2Aaf3Da7e650f04252cd9cED5C26d9D478",
+      maskScore: {},
     },
   },
   {
@@ -34,7 +35,7 @@ const runners = [
     op: 0,
     config: {
       wallet: "0x000000000dFDe7deaF24138722987c9a6991e2D4",
-      useCache: true
+      useCache: true,
     },
   },
 ];

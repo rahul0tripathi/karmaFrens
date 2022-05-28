@@ -1,4 +1,5 @@
 const { default: axios } = require("axios");
+const { alchemy } = require("../../utils");
 const { nerfScore } = require("./nerf-table");
 
 const getWalletNonce = async (
@@ -7,8 +8,8 @@ const getWalletNonce = async (
   endBlock = null
 ) => {
   try {
-   
-    return parseInt(response.data.countTxs);
+    const count = await alchemy.eth.getTransactionCount(address);
+    return parseInt(count);
   } catch (error) {
     console.log(`nonce-score: failed to fetch txns for ${address}`);
     return -1;

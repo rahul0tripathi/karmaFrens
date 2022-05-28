@@ -14,7 +14,11 @@ const validateBalance = async ({
     if (beforeBlock == 0) {
       beforeBlock = alchemy.eth.getBlockNumber();
     }
-    const contract = new ether.Contract(token, ERC20ABI, provider);
+    const contract = new ether.Contract(
+      token,
+      ERC20ABI,
+      ether.ethers.getDefaultProvider()
+    );
     const bal = await contract.balanceOf(wallet, {
       blockTag: beforeBlock - BLOCK_DIFF,
     });
