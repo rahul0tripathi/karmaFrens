@@ -1,0 +1,2761 @@
+{
+  "query": {
+    "excludeEmpty": "true",
+    "limit": 100,
+    "offset": 0,
+    "orderBy": "usdLiquidity",
+    "platform": "uniswap,uniswap-v2,curve,balancer,mooniswap,sushiswap",
+    "search": null,
+    "tags": null,
+    "totalRows": 3645
+  },
+  "results": [
+    {
+      "assets": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 1623584643.2934709,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.38314925449636233
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 1794684605.308669,
+          "name": "USD//C",
+          "symbol": "USDC",
+          "weight": 0.4235270833710528
+        },
+        {
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "balance": 819203809.847685,
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "weight": 0.19332366213258487
+        }
+      ],
+      "exchange": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+      "ownershipToken": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
+      "platform": "Curve",
+      "poolName": "Curve",
+      "roi": 1.0001825255882288,
+      "tags": ["stable"],
+      "usdLiquidity": 4237473058.449825,
+      "usdVolume": 14711852.141708374
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+          "balance": 7557.64191127,
+          "name": "renBTC",
+          "symbol": "renBTC",
+          "weight": 0.6991235952951851
+        },
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 3252.52379066,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.3008764047048149
+        }
+      ],
+      "exchange": "0x93054188d876f558f4a66b2ef1d97d16edf0895b",
+      "ownershipToken": "0x49849c98ae39fff122806c06791fa73784fb3675",
+      "platform": "Curve",
+      "poolName": "Curve renBTC",
+      "roi": 0.993070754695198,
+      "tags": ["stable"],
+      "usdLiquidity": 446141747.52941865,
+      "usdVolume": 563835.8664566164
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+          "balance": 2700.16819099,
+          "name": "renBTC",
+          "symbol": "renBTC",
+          "weight": 0.33098554199292607
+        },
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 2446.64672099,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.29990898111986897
+        },
+        {
+          "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+          "balance": 3011.149253861747,
+          "name": "Synth sBTC",
+          "symbol": "sBTC",
+          "weight": 0.3691054768872049
+        }
+      ],
+      "exchange": "0x7fc77b5c7614e1533320ea6ddc2eb61fa00a9714",
+      "ownershipToken": "0x075b1bb99792c9e1041ba13afef80c91a1e70fb3",
+      "platform": "Curve",
+      "poolName": "Curve sBTC",
+      "roi": 1.0003666157700764,
+      "tags": ["stable", "incentivized"],
+      "usdLiquidity": 336683866.7959746,
+      "usdVolume": 61067151.488026
+    },
+    {
+      "assets": [
+        {
+          "address": "0x0316eb71485b0ab14103307bf65a021042c6d380",
+          "balance": 2301.9546717163075,
+          "name": "Huobi BTC",
+          "symbol": "HBTC",
+          "weight": 0.49155093404747524
+        },
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 2381.08936761,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.5084490659525248
+        }
+      ],
+      "exchange": "0x4ca9b3063ec5866a4b82e437059d2c43d1be596f",
+      "ownershipToken": "0xb19059ebb43466c323583928285a49f558e572fd",
+      "platform": "Curve",
+      "poolName": "Curve HBTC",
+      "roi": 1.0001077691020261,
+      "tags": ["stable"],
+      "usdLiquidity": 193271917.29255837,
+      "usdVolume": 5246.771130434338
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 27913622.561308485,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.27644162091801644
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 27038746.377545,
+          "name": "USD//C",
+          "symbol": "USDC",
+          "weight": 0.26777731409754013
+        },
+        {
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "balance": 27624183.634919,
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "weight": 0.2735751722586874
+        },
+        {
+          "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+          "balance": 18398193.807080038,
+          "name": "Synth sUSD",
+          "symbol": "sUSD",
+          "weight": 0.18220589272575605
+        }
+      ],
+      "exchange": "0xa5407eae9ba41422680e2e00537571bcc53efbfd",
+      "ownershipToken": "0xc25a3a3b969415c80451098fa907ec722572917f",
+      "platform": "Curve",
+      "poolName": "Curve sUSD",
+      "roi": 1.0009310728581962,
+      "tags": ["stable", "incentivized"],
+      "usdLiquidity": 100974746.38085252,
+      "usdVolume": 91953784.48389053
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 28046650.89777,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 76171.49533853574,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+      "ownershipToken": "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap USDC-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 55875989.65318964,
+      "usdVolume": 2351921.9118545353
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 69285.80933424184,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "balance": 25470696.307709,
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x06da0fd433c1a5d7a4faa01111c044910a184553",
+      "ownershipToken": "0x06da0fd433c1a5d7a4faa01111c044910a184553",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WETH-USDT",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 50826832.44130487,
+      "usdVolume": 2197069.3895644546
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+          "balance": 18429098.991187792,
+          "name": "SushiToken",
+          "symbol": "SUSHI",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 66955.01202207578,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+      "ownershipToken": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap SUSHI-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 49115190.75773845,
+      "usdVolume": 1597324.5772430897
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 24240757.668768357,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 66546.13937866484,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f",
+      "ownershipToken": "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap DAI-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 48815260.60045435,
+      "usdVolume": 1279604.1170240939
+    },
+    {
+      "assets": [
+        {
+          "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+          "balance": 0.25907363630468316,
+          "name": "Compound Dai",
+          "symbol": "cDAI",
+          "weight": 6.142085297148325e-9
+        },
+        {
+          "address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+          "balance": 42180077.641337,
+          "name": "Compound USD Coin",
+          "symbol": "cUSDC",
+          "weight": 0.9999999938579147
+        }
+      ],
+      "exchange": "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56",
+      "ownershipToken": "0x845838df265dcd2c412a1dc9e959c7d08537f8a2",
+      "platform": "Curve",
+      "poolName": "Curve Compound",
+      "roi": 0.8848296497304436,
+      "tags": ["stable"],
+      "usdLiquidity": 42180077.90041064,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+          "balance": 799.1363423427845,
+          "name": "yearn.finance",
+          "symbol": "YFI",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 51409.84779392141,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x088ee5007c98a9677165d78dd2109ae4a3d04d0c",
+      "ownershipToken": "0x088ee5007c98a9677165d78dd2109ae4a3d04d0c",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap YFI-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 37711956.56009096,
+      "usdVolume": 23613585.724043667
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+          "balance": 2189495.122299249,
+          "name": "Synthetix Network Token",
+          "symbol": "SNX",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 29432.05203174014,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xa1d7b2d891e3a1f9ef4bbc5be20630c2feb1c470",
+      "ownershipToken": "0xa1d7b2d891e3a1f9ef4bbc5be20630c2feb1c470",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap SNX-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 21590827.781262748,
+      "usdVolume": 2447579.7858763486
+    },
+    {
+      "assets": [
+        {
+          "address": "0x33349b282065b0284d756f0577fb39c158f935e6",
+          "balance": 439529.84916543745,
+          "name": "Maple Token",
+          "symbol": "MPL",
+          "weight": 0.5
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 10476121.274419,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xc1b10e536cd611acff7a7c32a9e29ce6a02ef6ef",
+      "ownershipToken": "0xc1b10e536cd611acff7a7c32a9e29ce6a02ef6ef",
+      "platform": "Balancer",
+      "poolName": "Balancer MPL-USDC",
+      "roi": 0.9813128386808974,
+      "tags": [],
+      "usdLiquidity": 20952242.548838,
+      "usdVolume": 805699.6035840003
+    },
+    {
+      "assets": [
+        {
+          "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+          "balance": 10218786.478968127,
+          "name": "Synth sUSD",
+          "symbol": "sUSD",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 28039.458803045865,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xf1f85b2c54a2bd284b1cf4141d64fd171bd85539",
+      "ownershipToken": "0xf1f85b2c54a2bd284b1cf4141d64fd171bd85539",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap sUSD-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 20570546.80521084,
+      "usdVolume": 507301.1554613188
+    },
+    {
+      "assets": [
+        {
+          "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03",
+          "balance": 16187546.958420618,
+          "name": "EthLend Token",
+          "symbol": "LEND",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 24881.033669547076,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x5e63360e891bd60c69445970256c260b0a6a54c6",
+      "ownershipToken": "0x5e63360e891bd60c69445970256c260b0a6a54c6",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap LEND-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 18251609.394058146,
+      "usdVolume": 1995096.0077311993
+    },
+    {
+      "assets": [
+        {
+          "address": "0x16de59092dae5ccf4a1e6439d611fd0653f0bd01",
+          "balance": 4441440.769495539,
+          "name": "iearn DAI",
+          "symbol": "yDAI",
+          "weight": 0.24496295418480396
+        },
+        {
+          "address": "0xd6ad7a6750a7593e092a9b218d66c0a814a3436e",
+          "balance": 4739295.016776,
+          "name": "iearn USDC",
+          "symbol": "yUSDC",
+          "weight": 0.261390789231358
+        },
+        {
+          "address": "0x83f798e925bcd4017eb265844fddabb448f1707d",
+          "balance": 3008651.722732,
+          "name": "iearn USDT",
+          "symbol": "yUSDT",
+          "weight": 0.16593899420555375
+        },
+        {
+          "address": "0x73a052500105205d34daf004eab301916da8190f",
+          "balance": 5941683.714708294,
+          "name": "iearn TUSD",
+          "symbol": "yTUSD",
+          "weight": 0.3277072623782843
+        }
+      ],
+      "exchange": "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51",
+      "ownershipToken": "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8",
+      "platform": "Curve",
+      "poolName": "Curve Y",
+      "roi": 1.0011820918219403,
+      "tags": ["stable"],
+      "usdLiquidity": 18131071.223711833,
+      "usdVolume": 157926.247297287
+    },
+    {
+      "assets": [
+        {
+          "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+          "balance": 881855.8118304557,
+          "name": "ChainLink Token",
+          "symbol": "LINK",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 24547.068415605383,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xc40d16476380e4037e6b1a2594caf6a6cc8da967",
+      "ownershipToken": "0xc40d16476380e4037e6b1a2594caf6a6cc8da967",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap LINK-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 18007502.359387208,
+      "usdVolume": 673758.7646778226
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc2cb1040220768554cf699b0d863a3cd4324ce32",
+          "balance": 4888447.169386355,
+          "name": "iearn DAI",
+          "symbol": "yDAI",
+          "weight": 0.27298817751916443
+        },
+        {
+          "address": "0x26ea744e5b887e5205727f55dfbe8685e3b21951",
+          "balance": 4521852.861146,
+          "name": "iearn USDC",
+          "symbol": "yUSDC",
+          "weight": 0.2525162549172074
+        },
+        {
+          "address": "0xe6354ed5bc4b393a5aad09f21c46e101e692d447",
+          "balance": 4217644.116063,
+          "name": "iearn USDT",
+          "symbol": "yUSDT",
+          "weight": 0.23552816278323332
+        },
+        {
+          "address": "0x04bc0ab673d88ae9dbc9da2380cb6b79c4bca9ae",
+          "balance": 4279231.225653775,
+          "name": "iearn BUSD",
+          "symbol": "yBUSD",
+          "weight": 0.2389674047803948
+        }
+      ],
+      "exchange": "0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27",
+      "ownershipToken": "0x3b3ac5386837dc563660fb6a0937dfaa5924333b",
+      "platform": "Curve",
+      "poolName": "Curve bUSD",
+      "roi": 1.0012752866340766,
+      "tags": ["stable"],
+      "usdLiquidity": 17907175.37224913,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+          "balance": 62273.50696034895,
+          "name": "Compound",
+          "symbol": "COMP",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 23574.75511696763,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x31503dcb60119a812fee820bb7042752019f2355",
+      "ownershipToken": "0x31503dcb60119a812fee820bb7042752019f2355",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap COMP-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 17294019.36252954,
+      "usdVolume": 295481.037792556
+    },
+    {
+      "assets": [
+        {
+          "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+          "balance": 826702.002125467,
+          "name": "BandToken",
+          "symbol": "BAND",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 15511.932089711743,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xa75f7c2f025f470355515482bde9efa8153536a8",
+      "ownershipToken": "0xa75f7c2f025f470355515482bde9efa8153536a8",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap BAND-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 11378857.052353647,
+      "usdVolume": 326432.0718551874
+    },
+    {
+      "assets": [
+        {
+          "address": "0x961dd84059505d59f82ce4fb87d3c09bec65301d",
+          "balance": 85347.06606417,
+          "name": "TenX Community JAPAN",
+          "symbol": "TXJP",
+          "weight": 0.98
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 80.8536119945902,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.02
+        }
+      ],
+      "exchange": "0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f",
+      "ownershipToken": "0xddce7b2c3f7fbc4f1eab24970c3fd26fee1ff80f",
+      "platform": "Balancer",
+      "poolName": "Balancer 98TXJP-2WETH",
+      "roi": 0.9999948326485566,
+      "tags": [],
+      "usdLiquidity": 10906290.706479447,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 3474.0574578381484,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.9
+        },
+        {
+          "address": "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b",
+          "balance": 5054939.395992582,
+          "name": "Rally",
+          "symbol": "RLY",
+          "weight": 0.1
+        }
+      ],
+      "exchange": "0x96d99093f22719dd06fb8db8e93779979a2acab3",
+      "ownershipToken": "0x96d99093f22719dd06fb8db8e93779979a2acab3",
+      "platform": "Balancer",
+      "poolName": "Balancer 90WETH-10RLY",
+      "roi": 1.0001133423626394,
+      "tags": [],
+      "usdLiquidity": 10413629.61241633,
+      "usdVolume": 84570.69788820401
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 421.55233154,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 12522.739543797248,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xceff51756c56ceffca006cd410b03ffc46dd3a58",
+      "ownershipToken": "0xceff51756c56ceffca006cd410b03ffc46dd3a58",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WBTC-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 9174503.394762933,
+      "usdVolume": 197107.14677858565
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 7658142.888701,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.9
+        },
+        {
+          "address": "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b",
+          "balance": 4130067.983494988,
+          "name": "Rally",
+          "symbol": "RLY",
+          "weight": 0.1
+        }
+      ],
+      "exchange": "0xf7dde178fabe8386ade62d584019326a203b5394",
+      "ownershipToken": "0xf7dde178fabe8386ade62d584019326a203b5394",
+      "platform": "Balancer",
+      "poolName": "Balancer 90USDC-10RLY",
+      "roi": 1.0003273294584525,
+      "tags": [],
+      "usdLiquidity": 8509047.654112222,
+      "usdVolume": 109899.57006099998
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 48.384953,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.25
+        },
+        {
+          "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+          "balance": 1883910.4517360055,
+          "name": "Republic Token",
+          "symbol": "REN",
+          "weight": 0.1
+        },
+        {
+          "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+          "balance": 55890.5150245634,
+          "name": "ChainLink Token",
+          "symbol": "LINK",
+          "weight": 0.1
+        },
+        {
+          "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+          "balance": 7712.680625700952,
+          "name": "Aave Token",
+          "symbol": "AAVE",
+          "weight": 0.125
+        },
+        {
+          "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+          "balance": 66589.557747149,
+          "name": "Balancer",
+          "symbol": "BAL",
+          "weight": 0.1
+        },
+        {
+          "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+          "balance": 202664.07173909154,
+          "name": "BandToken",
+          "symbol": "BAND",
+          "weight": 0.1
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 662.9180023037474,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.225
+        }
+      ],
+      "exchange": "0x49ff149d649769033d43783e7456f626862cd160",
+      "ownershipToken": "0x49ff149d649769033d43783e7456f626862cd160",
+      "platform": "Balancer",
+      "poolName": "Balancer 0x49ff",
+      "roi": 0.9946514781560626,
+      "tags": [],
+      "usdLiquidity": 7948495.525102856,
+      "usdVolume": 249430.20823974078
+    },
+    {
+      "assets": [
+        {
+          "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+          "balance": 382911.39493507723,
+          "name": "UMA Voting Token v1",
+          "symbol": "UMA",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 9399.658187012525,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x001b6450083e531a5a7bf310bd2c1af4247e23d4",
+      "ownershipToken": "0x001b6450083e531a5a7bf310bd2c1af4247e23d4",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap UMA-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 6895421.389567476,
+      "usdVolume": 363950.8460362032
+    },
+    {
+      "assets": [
+        {
+          "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+          "balance": 737205.9003621584,
+          "name": "Uniswap",
+          "symbol": "UNI",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 8856.857451830067,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xdafd66636e2561b0284edde37e42d192f2844d40",
+      "ownershipToken": "0xdafd66636e2561b0284edde37e42d192f2844d40",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap UNI-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 6496993.043457831,
+      "usdVolume": 964108.1094700415
+    },
+    {
+      "assets": [
+        {
+          "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+          "balance": 11817580.413425822,
+          "name": "Republic Token",
+          "symbol": "REN",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 8783.845616931723,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x611cde65dea90918c0078ac0400a72b0d25b9bb1",
+      "ownershipToken": "0x611cde65dea90918c0078ac0400a72b0d25b9bb1",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap REN-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 6443739.108731596,
+      "usdVolume": 1484669.3735094294
+    },
+    {
+      "assets": [
+        {
+          "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+          "balance": 151883703.40985367,
+          "name": "Compound Dai",
+          "symbol": "cDAI",
+          "weight": 0.5
+        },
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 3147923.075708983,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x0cfe7968e7c34a51217a7c9b9dc1690f416e027e",
+      "ownershipToken": "0x0cfe7968e7c34a51217a7c9b9dc1690f416e027e",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap cDAI-DAI",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 6347431.6679927325,
+      "usdVolume": 21082.94502595866
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 598813.155541,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.1
+        },
+        {
+          "address": "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b",
+          "balance": 26050120.34826356,
+          "name": "Rally",
+          "symbol": "RLY",
+          "weight": 0.9
+        }
+      ],
+      "exchange": "0x0badc63d5cc7a25007f7c35acc23369c00df6ee7",
+      "ownershipToken": "0x0badc63d5cc7a25007f7c35acc23369c00df6ee7",
+      "platform": "Balancer",
+      "poolName": "Balancer 10USDC-90RLY",
+      "roi": 1.0002567382711571,
+      "tags": [],
+      "usdLiquidity": 5988131.55541,
+      "usdVolume": 93292.36128499999
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 7988.93855199902,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+          "balance": 3630484.352457594,
+          "name": "Ampleforth",
+          "symbol": "AMPL",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xcb2286d9471cc185281c4f763d34a962ed212962",
+      "ownershipToken": "0xcb2286d9471cc185281c4f763d34a962ed212962",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WETH-AMPL",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 5860326.699476425,
+      "usdVolume": 505731.5607667044
+    },
+    {
+      "assets": [
+        {
+          "address": "0x1cd7605aa2caac4403ff421411c097798ddb03ae",
+          "balance": 1000000,
+          "name": "uLockS",
+          "symbol": "ULS",
+          "weight": 0.5
+        },
+        {
+          "address": "0x395c8db957d743a62ac3aaaa4574553bcf2380b3",
+          "balance": 10000,
+          "name": "ulock.eth Wrapped Ether",
+          "symbol": "UETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x0179d00549b44d3161b9c260815f8a5947a541b3",
+      "ownershipToken": "0x0179d00549b44d3161b9c260815f8a5947a541b3",
+      "platform": "Uniswap-v2",
+      "poolName": "Uniswap ULS-UETH",
+      "roi": 1,
+      "tags": [],
+      "usdLiquidity": 5712855.5927493675,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 181.59108740824976,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.1
+        },
+        {
+          "address": "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b",
+          "balance": 21430563.60881262,
+          "name": "Rally",
+          "symbol": "RLY",
+          "weight": 0.9
+        }
+      ],
+      "exchange": "0xf1880d81ce7d3b4b0d96ea0665cdb03cb7332c52",
+      "ownershipToken": "0xf1880d81ce7d3b4b0d96ea0665cdb03cb7332c52",
+      "platform": "Balancer",
+      "poolName": "Balancer 10WETH-90RLY",
+      "roi": 0.9999868351015828,
+      "tags": [],
+      "usdLiquidity": 4898940.542353514,
+      "usdVolume": 35797.85510777743
+    },
+    {
+      "assets": [
+        {
+          "address": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
+          "balance": 1202041.972508,
+          "name": "Serum",
+          "symbol": "SRM",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 6214.237813953662,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x117d4288b3635021a3d612fe05a3cbf5c717fef2",
+      "ownershipToken": "0x117d4288b3635021a3d612fe05a3cbf5c717fef2",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap SRM-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 4558942.121834355,
+      "usdVolume": 291714.3640245199
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 140.76552514,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.5
+        },
+        {
+          "address": "0x5dbcf33d8c2e976c6b560249878e6f1491bca25c",
+          "balance": 1306164.4152973872,
+          "name": "yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+          "symbol": "yyDAI+yUSDC+yUSDT+yTUSD",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x2024324a99231509a3715172d4f4f4e751b38d4d",
+      "ownershipToken": "0x2024324a99231509a3715172d4f4f4e751b38d4d",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WBTC-yyDAI+yUSDC+yUSDT+yTUSD",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 3083513.1944995206,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 663.207721892,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+          "balance": 655.593231077,
+          "name": "Synth sETH",
+          "symbol": "sETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xe9cf7887b93150d4f2da7dfc6d502b216438f244",
+      "ownershipToken": "0xe9cf7887b93150d4f2da7dfc6d502b216438f244",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-sETH",
+      "roi": 1,
+      "tags": ["stable"],
+      "usdLiquidity": 3073713.978456138,
+      "usdVolume": 4151.5726156268
+    },
+    {
+      "assets": [
+        {
+          "address": "0x5dbcf33d8c2e976c6b560249878e6f1491bca25c",
+          "balance": 1272006.5561238045,
+          "name": "yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+          "symbol": "yyDAI+yUSDC+yUSDT+yTUSD",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 4074.2071755617185,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x382c4a5147fd4090f7be3a9ff398f95638f5d39e",
+      "ownershipToken": "0x382c4a5147fd4090f7be3a9ff398f95638f5d39e",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap yyDAI+yUSDC+yUSDT+yTUSD-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 2988655.4933500737,
+      "usdVolume": 190237.77466977152
+    },
+    {
+      "assets": [
+        {
+          "address": "0x8798249c2e607446efb7ad49ec89dd1865ff4272",
+          "balance": 1061526.2715910221,
+          "name": "SushiBar",
+          "symbol": "xSUSHI",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 3953.2307373738345,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7",
+      "ownershipToken": "0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap xSUSHI-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 2900019.4732662807,
+      "usdVolume": 18284.99396108766
+    },
+    {
+      "assets": [
+        {
+          "address": "0x48f07301e9e29c3c38a80ae8d9ae771f224f1054",
+          "balance": 22103223.525265574,
+          "name": "South African Tether",
+          "symbol": "XZAR",
+          "weight": 0.4820000000000045
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 408421.496302,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.14199999999999424
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 401.16082887808864,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3760000000000013
+        }
+      ],
+      "exchange": "0xe7ce624c00381b4b7abb03e633fb4acac4537dd6",
+      "ownershipToken": "0xe7ce624c00381b4b7abb03e633fb4acac4537dd6",
+      "platform": "Balancer",
+      "poolName": "Balancer 0xe7ce",
+      "roi": 1.0024874357259383,
+      "tags": [],
+      "usdLiquidity": 2878314.955713467,
+      "usdVolume": 61099.385245102625
+    },
+    {
+      "assets": [
+        {
+          "address": "0x1337def18c680af1f9f45cbcab6309562975b1dd",
+          "balance": 92378.00271914591,
+          "name": "Armor NXM",
+          "symbol": "arNXM",
+          "weight": 0.98
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 21.113489415165503,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.02
+        }
+      ],
+      "exchange": "0xdb942c0851774bd817e6f4813f1fa64cce6fe25f",
+      "ownershipToken": "0xdb942c0851774bd817e6f4813f1fa64cce6fe25f",
+      "platform": "Balancer",
+      "poolName": "Balancer 98arNXM-2WETH",
+      "roi": 0.9993696888298685,
+      "tags": [],
+      "usdLiquidity": 2847984.743160006,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 3861.0223369528617,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+          "balance": 1464435.6656690885,
+          "name": "Curve DAO Token",
+          "symbol": "CRV",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+      "ownershipToken": "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WETH-CRV",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 2832272.639078972,
+      "usdVolume": 485621.0172873214
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 603.068199719,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0x23b608675a2b2fb1890d3abbd85c5775c51691d5",
+          "balance": 15.486735105,
+          "name": "Unisocks Edition 0",
+          "symbol": "SOCKS",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x22d8432cc7aa4f8712a655fc4cdfb1baec29fca9",
+      "ownershipToken": "0x22d8432cc7aa4f8712a655fc4cdfb1baec29fca9",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-SOCKS",
+      "roi": 0.9824124207682299,
+      "tags": ["goods"],
+      "usdLiquidity": 2794990.308844032,
+      "usdVolume": 57449.0569334217
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 739.2113180898303,
+          "name": "Ethereum",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
+          "balance": 1281269.178083,
+          "name": "Serum",
+          "symbol": "SRM",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x33440a6139a550cd68ba21cdafa3241f10041d26",
+      "ownershipToken": "0x33440a6139a550cd68ba21cdafa3241f10041d26",
+      "platform": "Mooniswap",
+      "poolName": "Mooniswap ETH-SRM",
+      "roi": 0.9940518720650213,
+      "tags": [],
+      "usdLiquidity": 2603880.4616869395,
+      "usdVolume": 9769.972272664309
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2ba592f78db6436527729929aaf6c908497cb200",
+          "balance": 23134.507018822693,
+          "name": "Cream",
+          "symbol": "CREAM",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 3548.694005870896,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xf169cea51eb51774cf107c88309717dda20be167",
+      "ownershipToken": "0xf169cea51eb51774cf107c88309717dda20be167",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap CREAM-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 2603285.5480148206,
+      "usdVolume": 486467.9700451253
+    },
+    {
+      "assets": [
+        {
+          "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+          "balance": 131304.25534856194,
+          "name": "Balancer",
+          "symbol": "BAL",
+          "weight": 0.6666666666666666
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 289.45165136960907,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3333333333333333
+        }
+      ],
+      "exchange": "0x9dde0b1d39d0d2c6589cde1bfed3542d2a3c5b11",
+      "ownershipToken": "0x9dde0b1d39d0d2c6589cde1bfed3542d2a3c5b11",
+      "platform": "Balancer",
+      "poolName": "Balancer 66BAL-33WETH",
+      "roi": 1.0007316374702826,
+      "tags": [],
+      "usdLiquidity": 2342636.607640027,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
+          "balance": 27221.878160020846,
+          "name": "Wrapped NXM",
+          "symbol": "wNXM",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 2753.0843052759183,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xfcff3b04c499a57778ae2cf05584ab24278a7fcb",
+      "ownershipToken": "0xfcff3b04c499a57778ae2cf05584ab24278a7fcb",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap wNXM-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 2019634.4267874765,
+      "usdVolume": 269316.9042984275
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 14.0436197,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.3333333333333333
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 213.21579696103868,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3333333333333333
+        },
+        {
+          "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+          "balance": 616128.936211002,
+          "name": "Ampleforth",
+          "symbol": "AMPL",
+          "weight": 0.3333333333333333
+        }
+      ],
+      "exchange": "0xa751a143f8fe0a108800bfb915585e4255c2fe80",
+      "ownershipToken": "0xa751a143f8fe0a108800bfb915585e4255c2fe80",
+      "platform": "Balancer",
+      "poolName": "Balancer 0xa751",
+      "roi": 0.9290070868076011,
+      "tags": [],
+      "usdLiquidity": 1725632.3428269653,
+      "usdVolume": 53461.97551703278
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 339.831235001,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xaaaf91d9b90df800df4f55c205fd6989c977e73a",
+          "balance": 1846949.13305915,
+          "name": "Monolith TKN",
+          "symbol": "TKN",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xb6cfbf322db47d39331e306005dc7e5e6549942b",
+      "ownershipToken": "0xb6cfbf322db47d39331e306005dc7e5e6549942b",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-TKN",
+      "roi": 1,
+      "tags": [],
+      "usdLiquidity": 1574987.7193207426,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x58b6a8a3302369daec383334672404ee733ab239",
+          "balance": 50061.70550544165,
+          "name": "Livepeer Token",
+          "symbol": "LPT",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 111.61374461695901,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0x57f07147a30927eb1d9aa1c7f89ac3c806fd0525",
+      "ownershipToken": "0x57f07147a30927eb1d9aa1c7f89ac3c806fd0525",
+      "platform": "Balancer",
+      "poolName": "Balancer 80LPT-20WETH",
+      "roi": 1.0020352917495219,
+      "tags": [],
+      "usdLiquidity": 1505550.4826584097,
+      "usdVolume": 17881.65330530774
+    },
+    {
+      "assets": [
+        {
+          "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+          "balance": 91398.81807244156,
+          "name": "Balancer",
+          "symbol": "BAL",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 100.66354183626673,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0x59a19d8c652fa0284f44113d0ff9aba70bd46fb4",
+      "ownershipToken": "0x59a19d8c652fa0284f44113d0ff9aba70bd46fb4",
+      "platform": "Balancer",
+      "poolName": "Balancer 80BAL-20WETH",
+      "roi": 1.0001895722776966,
+      "tags": [],
+      "usdLiquidity": 1357843.9153511627,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 289.700253914,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+          "balance": 184.1269962,
+          "name": "Maker",
+          "symbol": "MKR",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x2c4bd064b998838076fa341a83d007fc2fa50957",
+      "ownershipToken": "0x2c4bd064b998838076fa341a83d007fc2fa50957",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-MKR",
+      "roi": 0.9981326423153756,
+      "tags": [],
+      "usdLiquidity": 1342649.807329536,
+      "usdVolume": 75929.3405292314
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 271.268511537,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+          "balance": 7442.988488068,
+          "name": "Numeraire",
+          "symbol": "NMR",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x2bf5a5ba29e60682fc56b2fcf9ce07bef4f6196f",
+      "ownershipToken": "0x2bf5a5ba29e60682fc56b2fcf9ce07bef4f6196f",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-NMR",
+      "roi": 0.9931972955833471,
+      "tags": [],
+      "usdLiquidity": 1257225.7353210484,
+      "usdVolume": 107652.642953633
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 114.7250796,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.5
+        },
+        {
+          "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+          "balance": 114.18786096,
+          "name": "renBTC",
+          "symbol": "renBTC",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x518d6ce2d7a689a591bf46433443c31615b206c5",
+      "ownershipToken": "0x518d6ce2d7a689a591bf46433443c31615b206c5",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WBTC-renBTC",
+      "roi": null,
+      "tags": ["new"],
+      "usdLiquidity": 1248229.7584575135,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+          "balance": 29935.635383792243,
+          "name": "Numeraire",
+          "symbol": "NMR",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 81.84022489439734,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0xc3eb65c18902357f0c3577ced27b1fa914cd0e57",
+      "ownershipToken": "0xc3eb65c18902357f0c3577ced27b1fa914cd0e57",
+      "platform": "Balancer",
+      "poolName": "Balancer 80NMR-20WETH",
+      "roi": 1.0001514029073821,
+      "tags": [],
+      "usdLiquidity": 1103937.4273615314,
+      "usdVolume": 11039.019249219746
+    },
+    {
+      "assets": [
+        {
+          "address": "0x00a8b738e453ffd858a7edf03bccfe20412f0eb0",
+          "balance": 2170236.9994596173,
+          "name": "AllianceBlock Token",
+          "symbol": "ALBT",
+          "weight": 0.5
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 279775.50415,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.25
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 102.17251401090843,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.25
+        }
+      ],
+      "exchange": "0x0d88b55317516b84e78fbba7cde3f910d5686901",
+      "ownershipToken": "0x0d88b55317516b84e78fbba7cde3f910d5686901",
+      "platform": "Balancer",
+      "poolName": "Balancer 0x0d88",
+      "roi": 0.9930033226311191,
+      "tags": [],
+      "usdLiquidity": 1102558.6736576415,
+      "usdVolume": 23550.663644833927
+    },
+    {
+      "assets": [
+        {
+          "address": "0x5b09a0371c1da44a8e24d36bf5deb1141a84d875",
+          "balance": 14414750.676480502,
+          "name": "MADToken",
+          "symbol": "MAD",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 80.35797497776527,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0x4bcbc51fbabe5ed04b4cd93d361674fc3fb519b8",
+      "ownershipToken": "0x4bcbc51fbabe5ed04b4cd93d361674fc3fb519b8",
+      "platform": "Balancer",
+      "poolName": "Balancer 80MAD-20WETH",
+      "roi": 0.9991041389344043,
+      "tags": [],
+      "usdLiquidity": 1083943.4554267637,
+      "usdVolume": 16402.5442672448
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 224.616596699,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 515639.968654,
+          "name": "USD//C",
+          "symbol": "USDC",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x97dec872013f6b5fb443861090ad931542878126",
+      "ownershipToken": "0x97dec872013f6b5fb443861090ad931542878126",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-USDC",
+      "roi": 0.9801285882006942,
+      "tags": [],
+      "usdLiquidity": 1041011.9639399954,
+      "usdVolume": 175049.3447231176
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 11.93287421,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 180.36812428556235,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x1eff8af5d577060ba4ac8a29a13525bb0ee2a3d5",
+      "ownershipToken": "0x1eff8af5d577060ba4ac8a29a13525bb0ee2a3d5",
+      "platform": "Balancer",
+      "poolName": "Balancer WBTC-WETH",
+      "roi": 0.9999572536393386,
+      "tags": [],
+      "usdLiquidity": 973189.5207216607,
+      "usdVolume": 1475.0788828638788
+    },
+    {
+      "assets": [
+        {
+          "address": "0xad32a8e6220741182940c5abf610bde99e737b2d",
+          "balance": 3509318.448849639,
+          "name": "PieDAO DOUGH v2",
+          "symbol": "DOUGH",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 68.86881056781938,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0xfae2809935233d4bfe8a56c2355c4a2e7d1fff1a",
+      "ownershipToken": "0xfae2809935233d4bfe8a56c2355c4a2e7d1fff1a",
+      "platform": "Balancer",
+      "poolName": "Balancer 80DOUGH-20WETH",
+      "roi": 0.9962475115946646,
+      "tags": [],
+      "usdLiquidity": 928966.8700420674,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+          "balance": 2949658.26851343,
+          "name": "CRO",
+          "symbol": "CRO",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 1249.6799391711359,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x0be88ac4b5c81700acf3a606a52a31c261a24a35",
+      "ownershipToken": "0x0be88ac4b5c81700acf3a606a52a31c261a24a35",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap CRO-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 915549.8925929233,
+      "usdVolume": 139497.75065938794
+    },
+    {
+      "assets": [
+        {
+          "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+          "balance": 37863.866667819355,
+          "name": "Balancer",
+          "symbol": "BAL",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 165.6527921243596,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xe867be952ee17d2d294f2de62b13b9f4af521e9a",
+      "ownershipToken": "0xe867be952ee17d2d294f2de62b13b9f4af521e9a",
+      "platform": "Balancer",
+      "poolName": "Balancer BAL-WETH",
+      "roi": 1.0002701315255789,
+      "tags": [],
+      "usdLiquidity": 893791.8604646411,
+      "usdVolume": 2518.274304688375
+    },
+    {
+      "assets": [
+        {
+          "address": "0x3a810ff7211b40c4fa76205a14efe161615d0385",
+          "balance": 11801530.983047303,
+          "name": "AI Network",
+          "symbol": "AIN",
+          "weight": 0.98
+        },
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 17750.379630346186,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.02
+        }
+      ],
+      "exchange": "0xcd489917002d2dec110f65ea5133fdfcffa007d3",
+      "ownershipToken": "0xcd489917002d2dec110f65ea5133fdfcffa007d3",
+      "platform": "Balancer",
+      "poolName": "Balancer 98AIN-2DAI",
+      "roi": 0.9992164035175277,
+      "tags": [],
+      "usdLiquidity": 887518.9815173093,
+      "usdVolume": 2905.3851782448965
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+          "balance": 139997.9854642075,
+          "name": "Aragon Network Token",
+          "symbol": "ANT",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 64.92435598763673,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0x73eba399fbbea50852359ff8b8d0e3eba1f22500",
+      "ownershipToken": "0x73eba399fbbea50852359ff8b8d0e3eba1f22500",
+      "platform": "Balancer",
+      "poolName": "Balancer 80ANT-20WETH",
+      "roi": 0.9806046599648507,
+      "tags": [],
+      "usdLiquidity": 875760.380846687,
+      "usdVolume": 9703.928638010275
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 186.325691679,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xcd62b1c403fa761baadfc74c525ce2b51780b184",
+          "balance": 3319044.248434105,
+          "name": "Aragon Network Juror",
+          "symbol": "ANJ",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x64a9edd3f5fce0252cd708e26c8dd11205742826",
+      "ownershipToken": "0x64a9edd3f5fce0252cd708e26c8dd11205742826",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-ANJ",
+      "roi": 1.000000127692296,
+      "tags": [],
+      "usdLiquidity": 863548.2732701263,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x95a4492f028aa1fd432ea71146b433e7b4446611",
+          "balance": 6299760.539792197,
+          "name": "APY Governance Token",
+          "symbol": "APY",
+          "weight": 0.8
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 171875.798668,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0xbc8b1f78ff5a0baf9945e145832ad79c494d4cf6",
+      "ownershipToken": "0xbc8b1f78ff5a0baf9945e145832ad79c494d4cf6",
+      "platform": "Balancer",
+      "poolName": "Balancer 80APY-20USDC",
+      "roi": 0.985889798175335,
+      "tags": [],
+      "usdLiquidity": 859378.9933399999,
+      "usdVolume": 9244.300353
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 184.795768017,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 193.648632898,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xa2881a90bf33f03e7a3f803765cd2ed5c8928dfb",
+      "ownershipToken": "0xa2881a90bf33f03e7a3f803765cd2ed5c8928dfb",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-WETH",
+      "roi": 1,
+      "tags": ["stable"],
+      "usdLiquidity": 856457.6626052735,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 181.54541774,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 417453.725116405,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x2a1530c4c41db0b0b2bb646cb5eb1a67b7158667",
+      "ownershipToken": "0x2a1530c4c41db0b0b2bb646cb5eb1a67b7158667",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-DAI",
+      "roi": 0.9770792342278969,
+      "tags": [],
+      "usdLiquidity": 841393.5329947311,
+      "usdVolume": 74267.7110685661
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 165803.80517237366,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.20000000000000198
+        },
+        {
+          "address": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+          "balance": 1787524.0513035592,
+          "name": "Request Token",
+          "symbol": "REQ",
+          "weight": 0.46153846153846456
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 153324.081584,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.18461538461538185
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 46.90077189849838,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.15384615384615152
+        }
+      ],
+      "exchange": "0x69d460e01070a7ba1bc363885bc8f4f0daa19bf5",
+      "ownershipToken": "0x69d460e01070a7ba1bc363885bc8f4f0daa19bf5",
+      "platform": "Balancer",
+      "poolName": "Balancer 0x69d4",
+      "roi": 1.0019377304727406,
+      "tags": [],
+      "usdLiquidity": 822433.8679301044,
+      "usdVolume": 16875.460270841715
+    },
+    {
+      "assets": [
+        {
+          "address": "0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a",
+          "balance": 39655.594594588096,
+          "name": "YAMv2",
+          "symbol": "YAMv2",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 1109.2813667092803,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x95b54c8da12bb23f7a5f6e26c38d04acc6f81820",
+      "ownershipToken": "0x95b54c8da12bb23f7a5f6e26c38d04acc6f81820",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap YAMv2-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 811400.4444918165,
+      "usdVolume": 42093.54769705236
+    },
+    {
+      "assets": [
+        {
+          "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+          "balance": 235.88194895377438,
+          "name": "Maker",
+          "symbol": "MKR",
+          "weight": 0.6
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 111.55909498885804,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.4
+        }
+      ],
+      "exchange": "0x9866772a9bdb4dc9d2c5a4753e8658b8b0ca1fc3",
+      "ownershipToken": "0x9866772a9bdb4dc9d2c5a4753e8658b8b0ca1fc3",
+      "platform": "Balancer",
+      "poolName": "Balancer 60MKR-40WETH",
+      "roi": 0.9982445242184887,
+      "tags": [],
+      "usdLiquidity": 752406.6587041577,
+      "usdVolume": 16446.821244893268
+    },
+    {
+      "assets": [
+        {
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "balance": 376184.090384,
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "weight": 0.5
+        },
+        {
+          "address": "0xf8c3527cc04340b208c854e985240c02f7b7793f",
+          "balance": 1520614.634530117,
+          "name": "Frontier Token",
+          "symbol": "FRONT",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x01388f9242964e2aaadef6379eb92276acb5520e",
+      "ownershipToken": "0x01388f9242964e2aaadef6379eb92276acb5520e",
+      "platform": "Uniswap-v2",
+      "poolName": "Uniswap USDT-FRONT",
+      "roi": 0.9560612029885389,
+      "tags": [],
+      "usdLiquidity": 749875.7884418784,
+      "usdVolume": 18893.35579690337
+    },
+    {
+      "assets": [
+        {
+          "address": "0x038a68ff68c393373ec894015816e33ad41bd564",
+          "balance": 1649305.7667013523,
+          "name": "Glitch",
+          "symbol": "GLCH",
+          "weight": 0.9
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 27.061757897964227,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.1
+        }
+      ],
+      "exchange": "0xc20e75d905d07fb62cbd92a51ba91c986e56df78",
+      "ownershipToken": "0xc20e75d905d07fb62cbd92a51ba91c986e56df78",
+      "platform": "Balancer",
+      "poolName": "Balancer 90GLCH-10WETH",
+      "roi": 1.003460709446951,
+      "tags": [],
+      "usdLiquidity": 730068.5557085852,
+      "usdVolume": 2811.269641039017
+    },
+    {
+      "assets": [
+        {
+          "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "balance": 146.168717079,
+          "name": "ether",
+          "symbol": "ETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc011a72400e58ecd99ee497cf89e3775d4bd732f",
+          "balance": 30480.591393974,
+          "name": "Synthetix Network Token",
+          "symbol": "SNX",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x3958b4ec427f8fa24eb60f42821760e88d485f7f",
+      "ownershipToken": "0x3958b4ec427f8fa24eb60f42821760e88d485f7f",
+      "platform": "Uniswap",
+      "poolName": "Uniswap ETH-SNX",
+      "roi": 0.9128379257752222,
+      "tags": [],
+      "usdLiquidity": 677436.0642499966,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x33349b282065b0284d756f0577fb39c158f935e6",
+          "balance": 13320.52119409641,
+          "name": "Maple Token",
+          "symbol": "MPL",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 115.94896524295396,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x30b705bfa64be9ae395bd9238efc63e9f5f8d1cc",
+      "ownershipToken": "0x30b705bfa64be9ae395bd9238efc63e9f5f8d1cc",
+      "platform": "Balancer",
+      "poolName": "Balancer MPL-WETH",
+      "roi": 0.9961912143760518,
+      "tags": [],
+      "usdLiquidity": 625611.195769336,
+      "usdVolume": 32182.141990813216
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+          "balance": 1525.7551074864716,
+          "name": "Gnosis Token",
+          "symbol": "GNO",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 45.64871492868758,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0xe42237f32708bd5c04d69cc77e1e36c8f911a016",
+      "ownershipToken": "0xe42237f32708bd5c04d69cc77e1e36c8f911a016",
+      "platform": "Balancer",
+      "poolName": "Balancer 80GNO-20WETH",
+      "roi": 0.9990286421832187,
+      "tags": [],
+      "usdLiquidity": 615752.5225005236,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6bb61215298f296c55b19ad842d3df69021da2ef",
+          "balance": 652453.8167008485,
+          "name": "Drops Ownership Power",
+          "symbol": "DOP",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 169.42953399387352,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x00aa1c57e894c4010fe44cb840ae56432d7ea1d1",
+      "ownershipToken": "0x00aa1c57e894c4010fe44cb840ae56432d7ea1d1",
+      "platform": "Uniswap-v2",
+      "poolName": "Uniswap DOP-WETH",
+      "roi": 0.9135403559586056,
+      "tags": [],
+      "usdLiquidity": 596891.2166474044,
+      "usdVolume": 2858.9010460823774
+    },
+    {
+      "assets": [
+        {
+          "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "balance": 9.71996497,
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "weight": 0.5
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 282242.36664,
+          "name": "USD//C",
+          "symbol": "USDC",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x004375dff511095cc5a197a54140a24efef3a416",
+      "ownershipToken": "0x004375dff511095cc5a197a54140a24efef3a416",
+      "platform": "Uniswap-v2",
+      "poolName": "Uniswap WBTC-USDC",
+      "roi": 0.9987740792788083,
+      "tags": [],
+      "usdLiquidity": 564247.5520395701,
+      "usdVolume": 9814.65423578024
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 759.707365274281,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
+          "balance": 516.17733282,
+          "name": "MEME",
+          "symbol": "MEME",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x17b3c19bd640a59e832ab73eccf716cb47419846",
+      "ownershipToken": "0x17b3c19bd640a59e832ab73eccf716cb47419846",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WETH-MEME",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 557307.7565269606,
+      "usdVolume": 35468.17176613628
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 109530.53752,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.2
+        },
+        {
+          "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+          "balance": 87085.78333358385,
+          "name": "Aragon Network Token",
+          "symbol": "ANT",
+          "weight": 0.8
+        }
+      ],
+      "exchange": "0xde0999ee4e4bea6fecb03bf4ebef2626942ec6f5",
+      "ownershipToken": "0xde0999ee4e4bea6fecb03bf4ebef2626942ec6f5",
+      "platform": "Balancer",
+      "poolName": "Balancer 20USDC-80ANT",
+      "roi": 0.9817564452285572,
+      "tags": [],
+      "usdLiquidity": 547652.6876,
+      "usdVolume": 13288.500549
+    },
+    {
+      "assets": [
+        {
+          "address": "0x607f4c5bb672230e8672085532f7e901544a7375",
+          "balance": 227145.12640258,
+          "name": "iEx.ec Network Token",
+          "symbol": "RLC",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 39.141186134680204,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0x9dcc2104f25d40db2f455b458fcbe538c6812bbc",
+      "ownershipToken": "0x9dcc2104f25d40db2f455b458fcbe538c6812bbc",
+      "platform": "Balancer",
+      "poolName": "Balancer 80RLC-20WETH",
+      "roi": 0.999786472155669,
+      "tags": [],
+      "usdLiquidity": 527972.8932948688,
+      "usdVolume": 3657.5000130905864
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 97.18946862343176,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
+          "balance": 125029.85957017289,
+          "name": "Rail",
+          "symbol": "RAIL",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x95a43cc58675aa29dd51ec68e8bc16bb760a81af",
+      "ownershipToken": "0x95a43cc58675aa29dd51ec68e8bc16bb760a81af",
+      "platform": "Balancer",
+      "poolName": "Balancer WETH-RAIL",
+      "roi": 0.9899916865887568,
+      "tags": [],
+      "usdLiquidity": 524392.9478308682,
+      "usdVolume": 19715.759672848475
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 119.96907256653887,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e",
+          "balance": 119.87528221721514,
+          "name": "RootKit",
+          "symbol": "ROOT",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x01f8989c1e556f5c89c7d46786db98eeaae82c33",
+      "ownershipToken": "0x01f8989c1e556f5c89c7d46786db98eeaae82c33",
+      "platform": "Uniswap-v2",
+      "poolName": "Uniswap WETH-ROOT",
+      "roi": 0.9957570761986239,
+      "tags": [],
+      "usdLiquidity": 472976.76449757355,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 9402.055048,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.02
+        },
+        {
+          "address": "0xdea67845a51e24461d5fed8084e69b426af3d5db",
+          "balance": 3798768.829184065,
+          "name": "HodlTree",
+          "symbol": "HTRE",
+          "weight": 0.98
+        }
+      ],
+      "exchange": "0x02b77ad79e27ad80a0a0868cc7528520e8442c9b",
+      "ownershipToken": "0x02b77ad79e27ad80a0a0868cc7528520e8442c9b",
+      "platform": "Balancer",
+      "poolName": "Balancer 2USDC-98HTRE",
+      "roi": 0.999891608739175,
+      "tags": [],
+      "usdLiquidity": 470102.7524,
+      "usdVolume": 1814.117266
+    },
+    {
+      "assets": [
+        {
+          "address": "0x78f225869c08d478c34e5f645d07a87d3fe8eb78",
+          "balance": 166360.75786343086,
+          "name": "PieDAO DEFI Large Cap",
+          "symbol": "DEFI+L",
+          "weight": 0.7
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 52.08873622562565,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3
+        }
+      ],
+      "exchange": "0xa795600590a7da0057469049ab8f1284baed977e",
+      "ownershipToken": "0xa795600590a7da0057469049ab8f1284baed977e",
+      "platform": "Balancer",
+      "poolName": "Balancer 70DEFI+L-30WETH",
+      "roi": 0.9973670503376567,
+      "tags": [],
+      "usdLiquidity": 468414.36500310455,
+      "usdVolume": 6442.401123428452
+    },
+    {
+      "assets": [
+        {
+          "address": "0x84cffa78b2fbbeec8c37391d2b12a04d2030845e",
+          "balance": 2946189.1440498224,
+          "name": "DIGITAL FITNESS",
+          "symbol": "DEFIT",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 125.01678100334829,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x0216b5f9167355c6397db0e99709b9d289f2d5ac",
+      "ownershipToken": "0x0216b5f9167355c6397db0e99709b9d289f2d5ac",
+      "platform": "Uniswap-v2",
+      "poolName": "Uniswap DEFIT-WETH",
+      "roi": 0.9791059503822626,
+      "tags": [],
+      "usdLiquidity": 445482.4440054698,
+      "usdVolume": 35000.30229154229
+    },
+    {
+      "assets": [
+        {
+          "address": "0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c",
+          "balance": 94642.51746938801,
+          "name": "PieDAO DEFI Small Cap",
+          "symbol": "DEFI+S",
+          "weight": 0.7
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 48.27046732240543,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3
+        }
+      ],
+      "exchange": "0x35333cf3db8e334384ec6d2ea446da6e445701df",
+      "ownershipToken": "0x35333cf3db8e334384ec6d2ea446da6e445701df",
+      "platform": "Balancer",
+      "poolName": "Balancer 70DEFI+S-30WETH",
+      "roi": 0.997291331059051,
+      "tags": [],
+      "usdLiquidity": 434078.1124212438,
+      "usdVolume": 8247.176021113599
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 596.9113232994026,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+          "balance": 33768716.795719676,
+          "name": "Amp",
+          "symbol": "AMP",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3",
+      "ownershipToken": "0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WETH-AMP",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 421542.8058113712,
+      "usdVolume": 1787.7958357974421
+    },
+    {
+      "assets": [
+        {
+          "address": "0x4b606e9eb2228c70f44453afe5a73e1fea258ce1",
+          "balance": 205488.35721391783,
+          "name": " pxUSD Synthetic USD Expiring 31 Mar 2022",
+          "symbol": "pxUSD_MAR2022",
+          "weight": 0.5
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 205599.066574,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x3a0d62bca2f4062e8badfdc90701d1228487f741",
+      "ownershipToken": "0x3a0d62bca2f4062e8badfdc90701d1228487f741",
+      "platform": "Balancer",
+      "poolName": "Balancer pxUSD_MAR2022-USDC",
+      "roi": 1.0000007562591549,
+      "tags": [],
+      "usdLiquidity": 411198.133148,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+          "balance": 4036.727156057566,
+          "name": "Uniswap",
+          "symbol": "UNI",
+          "weight": 0.1
+        },
+        {
+          "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+          "balance": 2667.0518907128167,
+          "name": "ChainLink Token",
+          "symbol": "LINK",
+          "weight": 0.1
+        },
+        {
+          "address": "0x748a9631bad6af6d048ae66e2e6e3f44213fb1e0",
+          "balance": 7668.573772583397,
+          "name": "Uniswap V2",
+          "symbol": "UNI-V2",
+          "weight": 0.4
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 41.88648654928215,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3
+        },
+        {
+          "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+          "balance": 0.92555495,
+          "name": "renBTC",
+          "symbol": "renBTC",
+          "weight": 0.1
+        }
+      ],
+      "exchange": "0x3b260cf977df1ff8d87960064daee2ce491a1b91",
+      "ownershipToken": "0x3b260cf977df1ff8d87960064daee2ce491a1b91",
+      "platform": "Balancer",
+      "poolName": "Balancer 0x3b26",
+      "roi": 0.9987480415273617,
+      "tags": [],
+      "usdLiquidity": 376669.38038593985,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x0954906da0bf32d5479e25f46056d22f08464cab",
+          "balance": 43525.48092040636,
+          "name": "Index",
+          "symbol": "INDEX",
+          "weight": 0.7
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 41.41093312602921,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.3
+        }
+      ],
+      "exchange": "0xcf19a7c81fcf0e01c927f28a2b551405e58c77e5",
+      "ownershipToken": "0xcf19a7c81fcf0e01c927f28a2b551405e58c77e5",
+      "platform": "Balancer",
+      "poolName": "Balancer 70INDEX-30WETH",
+      "roi": 0.9891032613658463,
+      "tags": [],
+      "usdLiquidity": 372392.90775636415,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 66.07810880793124,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc57d533c50bc22247d49a368880fb49a1caa39f7",
+          "balance": 999481.0903354204,
+          "name": "PowerTrade Fuel Token",
+          "symbol": "PTF",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x05f661a1bd2da5e59c8e06b92acdcde2706110e5",
+      "ownershipToken": "0x05f661a1bd2da5e59c8e06b92acdcde2706110e5",
+      "platform": "Balancer",
+      "poolName": "Balancer WETH-PTF",
+      "roi": 0.9579866546023422,
+      "tags": [],
+      "usdLiquidity": 356529.3107953654,
+      "usdVolume": 12864.294443890889
+    },
+    {
+      "assets": [
+        {
+          "address": "0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd",
+          "balance": 7.529533699731609,
+          "name": "PieDAO BTC++",
+          "symbol": "BTC++",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 26.01505782950123,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0xd4dbf96db2fdf8ed40296d8d104b371adf7dee12",
+      "ownershipToken": "0xd4dbf96db2fdf8ed40296d8d104b371adf7dee12",
+      "platform": "Balancer",
+      "poolName": "Balancer 80BTC++-20WETH",
+      "roi": 1.0000794257828696,
+      "tags": [],
+      "usdLiquidity": 350915.4092626047,
+      "usdVolume": 243.08737756612516
+    },
+    {
+      "assets": [
+        {
+          "address": "0x8564653879a18c560e7c0ea0e084c516c62f5653",
+          "balance": 12642851.177158447,
+          "name": "UpBots",
+          "symbol": "UBXT",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 473.2125597486817,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xbcd6a2ddafbaa7f424698ed69e717c0c0f1e99bf",
+      "ownershipToken": "0xbcd6a2ddafbaa7f424698ed69e717c0c0f1e99bf",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap UBXT-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 339705.99041443865,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "balance": 6249.033788448816,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "weight": 0.02
+        },
+        {
+          "address": "0x9c825d5fdd376d32f8cb44fd491522f7a32193de",
+          "balance": 299918.44883962895,
+          "name": "covToken",
+          "symbol": "COVER_REN_2020_12_31_DAI_0_NOCLAIM",
+          "weight": 0.98
+        }
+      ],
+      "exchange": "0x33bc3abfabde8fceb0ced58e16184fb4cfc163ef",
+      "ownershipToken": "0x33bc3abfabde8fceb0ced58e16184fb4cfc163ef",
+      "platform": "Balancer",
+      "poolName": "Balancer 2DAI-98COVER_REN_2020_12_31_DAI_0_NOCLAIM",
+      "roi": 1,
+      "tags": [],
+      "usdLiquidity": 312451.68942244083,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0xa1d65e8fb6e87b60feccbc582f7f97804b725521",
+          "balance": 460.6866038166326,
+          "name": "DXdao",
+          "symbol": "DXD",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 22.702033713329335,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0xaf71d6c242a00e8364ea0ef3c007f3413e975011",
+      "ownershipToken": "0xaf71d6c242a00e8364ea0ef3c007f3413e975011",
+      "platform": "Balancer",
+      "poolName": "Balancer 80DXD-20WETH",
+      "roi": 1.0042602099776157,
+      "tags": [],
+      "usdLiquidity": 306226.24419355945,
+      "usdVolume": 941.2281688905874
+    },
+    {
+      "assets": [
+        {
+          "address": "0x960b236a07cf122663c4303350609a66a7b288c0",
+          "balance": 40206.84665686004,
+          "name": "Aragon Network Token",
+          "symbol": "ANT",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 422.6542037204538,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x378b4c5f2a8a0796a8d4c798ef737cf00ae8e667",
+      "ownershipToken": "0x378b4c5f2a8a0796a8d4c798ef737cf00ae8e667",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap ANT-WETH",
+      "roi": null,
+      "tags": [],
+      "usdLiquidity": 306026.09992801864,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+          "balance": 529008.3119953582,
+          "name": "OriginToken",
+          "symbol": "OGN",
+          "weight": 0.5
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 56.565981368857855,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0xae1019cfc59dc21a2395c8b38a6f6d0df61d2c22",
+      "ownershipToken": "0xae1019cfc59dc21a2395c8b38a6f6d0df61d2c22",
+      "platform": "Balancer",
+      "poolName": "Balancer OGN-WETH",
+      "roi": 0.9982802475922681,
+      "tags": [],
+      "usdLiquidity": 305205.925468038,
+      "usdVolume": 3420.130041746063
+    },
+    {
+      "assets": [
+        {
+          "address": "0x4a64515e5e1d1073e83f30cb97bed20400b66e10",
+          "balance": 2401.3524787193987,
+          "name": "Wrapped ZEC",
+          "symbol": "WZEC",
+          "weight": 0.5
+        },
+        {
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "balance": 149986.412686,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "weight": 0.5
+        }
+      ],
+      "exchange": "0x7212fb4efc7c1d5eb56dea974becb3079c805c6b",
+      "ownershipToken": "0x7212fb4efc7c1d5eb56dea974becb3079c805c6b",
+      "platform": "Sushiswap",
+      "poolName": "Sushiswap WZEC-USDC",
+      "roi": null,
+      "tags": ["new"],
+      "usdLiquidity": 299569.0588051508,
+      "usdVolume": 0
+    },
+    {
+      "assets": [
+        {
+          "address": "0x467bccd9d29f223bce8043b84e8c8b282827790f",
+          "balance": 41635917.07,
+          "name": "Telcoin",
+          "symbol": "TEL",
+          "weight": 0.8
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 21.878690440741654,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        }
+      ],
+      "exchange": "0x6cb5c5cb789fae62ce5ce280e1fbc5dd3bbdad81",
+      "ownershipToken": "0x6cb5c5cb789fae62ce5ce280e1fbc5dd3bbdad81",
+      "platform": "Balancer",
+      "poolName": "Balancer 80TEL-20WETH",
+      "roi": 0.9903005761847445,
+      "tags": [],
+      "usdLiquidity": 295120.2207759956,
+      "usdVolume": 2293.118853151
+    },
+    {
+      "assets": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "balance": 21.841506898722074,
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "weight": 0.2
+        },
+        {
+          "address": "0xd15ecdcf5ea68e3995b2d0527a0ae0a3258302f8",
+          "balance": 144259447.02773723,
+          "name": "MachiX Token",
+          "symbol": "MCX",
+          "weight": 0.8
+        }
+      ],
+      "exchange": "0x79c44cd4291a72aa26a2f04a3559daf67e3ff761",
+      "ownershipToken": "0x79c44cd4291a72aa26a2f04a3559daf67e3ff761",
+      "platform": "Balancer",
+      "poolName": "Balancer 20WETH-80MCX",
+      "roi": 1,
+      "tags": [],
+      "usdLiquidity": 294618.65441580716,
+      "usdVolume": 0
+    }
+  ]
+}

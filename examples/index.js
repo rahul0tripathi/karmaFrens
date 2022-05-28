@@ -38,6 +38,16 @@ const runners = [
       useCache: true,
     },
   },
+  {
+    entryPoint: require("../runners/pools").entryPoint,
+    name: "pools-runner",
+    description: "if you hold top defi pool tokens, you get more karma",
+    op: 0,
+    config: {
+      wallet: "0x367a739ccC69940aF740590a7D533Ef8f96f282a",
+      useCache: true,
+    },
+  },
 ];
 const run = async () => {
   const calculatedValue = await SDK.calculateKarma(runners);
