@@ -1,12 +1,9 @@
 const BN = require("bn.js");
 const ether = require("ethers");
+const { alchemy } = require("../../utils");
 const { BLOCK_DIFF, THRESHOLD } = require("./config");
-const { ERC20ABI } = require("./constants");
-const provider = new ether.providers.AlchemyProvider(
-  null,
-  "mc_Wvzd1suoiZpyeme6c6_YEgNf4SImy"
-);
-const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
+const { ERC20ABI, provider } = require("../../utils");
+
 const validateBalance = async ({
   wallet = null,
   balance = null,
@@ -15,9 +12,7 @@ const validateBalance = async ({
 }) => {
   try {
     if (beforeBlock == 0) {
-      beforeBlock = await createAlchemyWeb3(
-        `https://eth-mainnet.alchemyapi.io/v2/mc_Wvzd1suoiZpyeme6c6_YEgNf4SImy`
-      ).eth.getBlockNumber();
+      beforeBlock = alchemy.eth.getBlockNumber();
     }
     const contract = new ether.Contract(token, ERC20ABI, provider);
     const bal = await contract.balanceOf(wallet, {

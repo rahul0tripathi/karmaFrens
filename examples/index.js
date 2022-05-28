@@ -27,6 +27,16 @@ const runners = [
       wallet: "0x72238a2Aaf3Da7e650f04252cd9cED5C26d9D478",
     },
   },
+  {
+    entryPoint: require("../runners/governance").entryPoint,
+    name: "governance-runner",
+    description: "if you hold a defi governance tokens, you get more karma",
+    op: 0,
+    config: {
+      wallet: "0x000000000dFDe7deaF24138722987c9a6991e2D4",
+      useCache: true
+    },
+  },
 ];
 const run = async () => {
   const calculatedValue = await SDK.calculateKarma(runners);
