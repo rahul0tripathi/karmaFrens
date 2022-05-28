@@ -7,7 +7,9 @@ const calculateKarma = async (runners) => {
       console.log(`entrypoint not found for runner ${name}`);
     }
     try {
+      console.time(`${name}-time`);
       const delta = await entryPoint(config);
+      console.timeEnd(`${name}-time`);
       console.log(`runner ${name} returned delta: ${delta}`);
       switch (op) {
         case 0:
