@@ -18,8 +18,16 @@ const runners = [
       wallet: "0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e",
     },
   },
+  {
+    entryPoint: require("../runners/portfolio").entryPoint,
+    name: "portfolio-runner",
+    description: "profiles your current portfolio and give you karma scores",
+    op: 0,
+    config: {
+      wallet: "0x72238a2Aaf3Da7e650f04252cd9cED5C26d9D478",
+    },
+  },
 ];
-
 const run = async () => {
   const calculatedValue = await SDK.calculateKarma(runners);
   console.log("========================================");

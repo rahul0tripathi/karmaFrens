@@ -27,7 +27,7 @@ const calculateKarma = async (runners, startBlock = null, endBlock = null) => {
           console.log(`unknown operation ${op} for runner ${name}`);
       }
     } catch (error) {
-      console.log(`error invoking runner ${name}: ${error?.message()}`);
+      console.log(`error invoking runner ${name}: ${error}`);
       continue;
     }
   }
