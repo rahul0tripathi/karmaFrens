@@ -1,0 +1,14 @@
+{
+  "name": "karmaFrens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rahul0tripathi/karmaFrens.git",
+  "author": "rahul0tripathi <rahultripathidev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.6.5",
+    "graphql": "^16.5.0",
+    "graphql-request": "^4.2.0",
+    "moment": "^2.29.3"
+  }
+}
