@@ -2,7 +2,6 @@ const { request, gql } = require("graphql-request");
 const moment = require("moment");
 const { CONSTANTS } = require("./config");
 const getEnsData = async (address = null) => {
-  //   address = "0xce90e2e1746940fa0e89b81947cd3495f354fcf8";
   const query = gql`
   {
     domains(where:{owner:"${address}"}) {
@@ -54,7 +53,3 @@ const entryPoint = async (config) => {
 module.exports = {
   entryPoint,
 };
-
-// entryPoint({
-//   wallet: "0xce90e2e1746940fa0e89b88947cd3495f354fcf8",
-// });
