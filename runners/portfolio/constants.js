@@ -1,3 +1,3 @@
 module.exports = {
-  NORMALIZE: Math.pow(10, 6),
+  NORMALIZE: Math.pow(10, 4),
 };
