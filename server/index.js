@@ -1,6 +1,8 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
-const port = 3000;
+app.use(cors())
+const port = 5000;
 const { run } = require("../examples/server-runner");
 let locked = false;
 
