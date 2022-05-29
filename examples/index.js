@@ -48,6 +48,16 @@ const runners = [
       useCache: true,
     },
   },
+  {
+    entryPoint: require("../runners/aave-profiler").entryPoint,
+    name: "aave-profiler",
+    description:
+      "profiles your current aave portfolio, your deposit patterns and give you karma scores",
+    op: 0,
+    config: {
+      wallet: "0xf83E546BD2959c22F1715ECafFC03d39b8d0Fa96",
+    },
+  },
 ];
 const run = async () => {
   const calculatedValue = await SDK.calculateKarma(runners);

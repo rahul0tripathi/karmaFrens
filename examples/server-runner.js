@@ -50,11 +50,20 @@ const run = async (wallet) => {
         useCache: true,
       },
     },
+    {
+      entryPoint: require("../runners/aave-profiler").entryPoint,
+      name: "aave-profiler",
+      description:
+        "profiles your current aave portfolio, your deposits and give you karma scores",
+      op: 0,
+      config: {
+        wallet,
+      },
+    },
   ];
   return await SDK.calculateKarma(runners);
 };
 
-
 module.exports = {
-    run,
-}
+  run,
+};

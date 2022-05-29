@@ -29,7 +29,7 @@ const entryPoint = async (config) => {
   // get current erc20
   const holdingList = await getCurrentAssets(wallet);
   if (holdingList.length === 0) return delta;
-  const highestVolume = await getHighestVolume(holdingList);
+  const highestVolume = await getHighestVolume();
 
   for (let token of holdingList) {
     console.log(`portfolio: getting info for ${token.tokenInfo.address}`);
@@ -66,4 +66,5 @@ const entryPoint = async (config) => {
 
 module.exports = {
   entryPoint,
+  getCurrentAssets
 };
