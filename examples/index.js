@@ -60,7 +60,7 @@ const runners = [
   },
 ];
 const run = async () => {
-  const calculatedValue = await SDK.calculateKarma(runners);
+  const calculatedValue = await SDK.calculateKarma(runners, 100);
   console.log("========================================");
   console.log("calculated Karma frens => " + calculatedValue.toFixed(12));
 };

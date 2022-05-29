@@ -61,7 +61,7 @@ const run = async (wallet) => {
       },
     },
   ];
-  return await SDK.calculateKarma(runners);
+  return await SDK.calculateKarma(runners, 100);
 };
 
 module.exports = {

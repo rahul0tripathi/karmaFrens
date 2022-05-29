@@ -1,5 +1,10 @@
-const calculateKarma = async (runners, startBlock = null, endBlock = null) => {
-  let calculatedKarma = parseFloat(0);
+const calculateKarma = async (
+  runners,
+  base = 0,
+  startBlock = null,
+  endBlock = null
+) => {
+  let calculatedKarma = parseFloat(base);
   for (let runner of runners) {
     const { entryPoint, config, name, description, op } = runner;
     let extendedConfig = {
