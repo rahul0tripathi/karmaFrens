@@ -60,6 +60,17 @@ const run = async (wallet) => {
         wallet,
       },
     },
+
+    {
+      entryPoint: require("../runners/vault-profiler").entryPoint,
+      name: "vault-profiler",
+      description:
+        "profiles your deposits in different and give you karma scores",
+      op: 1,
+      config: {
+        wallet,
+      },
+    },
   ];
   return await SDK.calculateKarma(runners, 100);
 };

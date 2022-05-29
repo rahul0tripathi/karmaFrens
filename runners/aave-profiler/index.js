@@ -58,6 +58,7 @@ const entryPoint = async (config) => {
   }
   delta *= NORMALIZE;
   console.log(`aave-runner-delta:`, delta);
+  // normalize based on txn counts as well
   return delta;
 };
 module.exports = {

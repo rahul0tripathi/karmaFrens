@@ -10,15 +10,6 @@ const runners = [
     },
   },
   {
-    entryPoint: require("../runners/nonce-scorer").entryPoint,
-    name: "nonce-runner",
-    description: "nerfs karma if you have low no of txns",
-    op: 1,
-    config: {
-      wallet: "0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e",
-    },
-  },
-  {
     entryPoint: require("../runners/portfolio").entryPoint,
     name: "portfolio-runner",
     description: "profiles your current portfolio and give you karma scores",
@@ -56,6 +47,25 @@ const runners = [
     op: 0,
     config: {
       wallet: "0xf83E546BD2959c22F1715ECafFC03d39b8d0Fa96",
+    },
+  },
+  {
+    entryPoint: require("../runners/nonce-scorer").entryPoint,
+    name: "nonce-runner",
+    description: "nerfs karma if you have low no of txns",
+    op: 1,
+    config: {
+      wallet: "0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e",
+    },
+  },
+  {
+    entryPoint: require("../runners/vault-profiler").entryPoint,
+    name: "vault-profiler",
+    description:
+      "profiles your deposits in different and give you karma scores",
+    op: 1,
+    config: {
+      wallet: "0x2b6c7e127a5f799587b0f9b4393d62b26cf85c95",
     },
   },
 ];

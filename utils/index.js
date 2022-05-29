@@ -7,6 +7,7 @@ module.exports = {
   alchemy: createAlchemyWeb3(
     `https://eth-mainnet.alchemyapi.io/v2/${alchemy_token}`
   ),
+  calculatedKarmaKey: "calculated-karma",
   provider,
   ERC20ABI: [
     {
